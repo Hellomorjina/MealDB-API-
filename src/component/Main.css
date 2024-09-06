@@ -1,0 +1,60 @@
+.Container{
+  margin-top: 50px;
+  display:block;
+  justify-content: center;
+  align-items: center;
+}
+.SearchBar{
+  margin:0 auto;
+  margin-left:220px;
+}
+.header{
+  text-align: center;
+  font-size: 40px;
+  margin-top:20px;
+  color: #E85C0D;
+
+ 
+}
+.erro{
+  padding:20px;
+  text-align: center;
+  margin: 0 auto;
+  color: #000000;
+  font-weight: 500;
+}
+#search{
+  width: 500px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  outline: none;
+  border:0.01px solid #ececec;
+  border-radius: 5px;
+}
+#search:focus{
+  border:2px solid #000000;
+}
+
+#mainBtn{
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: #CD5C08;
+  color: rgb(235, 235, 235);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  cursor: pointer;
+}
+#mainBtn:active{
+  background-color: #E85C0D;
+  color: rgb(255, 255, 255);
+}
+#mainBtn:focus{
+  background-color: #E85C0D;
+  color: rgb(255, 255, 255);
+}
