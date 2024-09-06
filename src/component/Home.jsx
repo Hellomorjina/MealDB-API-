@@ -28,7 +28,7 @@ const Home = () => {
     <h1 className='header'>FOOD RECIPE APP</h1>
       <div className='Container'>
            <div className='SearchBar'>
-               <input id='search' type='text' placeholder='Enter Dishe' onChange={handleInput}/>
+               <input id='search' type='text' placeholder='Enter Food Name' onChange={handleInput}/>
                <input onClick={myFun} id='mainBtn' type='button' value='Search'/>
          
            </div>
