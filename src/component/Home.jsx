@@ -1,9 +1,8 @@
-/* eslint-disable no-unused-vars */
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './main.css'
 import Cards from './Cards'
 
-const Main = () => {
+const Home = () => {
   const [data, setdata] = useState();
   const [Search, setSearch] = useState("");
   const [msg, setmsg] = useState("")
@@ -46,4 +45,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Home

@@ -1,6 +1,8 @@
 import './App.css'
+import Home from './component/Home'
 import Info from './component/Info'
-import Main from './component/main'
+
+
 import './index.css'
 import {Route,Routes } from 'react-router-dom'
 
@@ -10,7 +12,7 @@ function App() {
  
       {/* <Main /> */}
       <Routes>
-          <Route path='/' element={<Main />}/>
+          <Route path='/' element={<Home />}/>
           <Route path='/:Mealid' element={<Info />}/>
       </Routes>
 
