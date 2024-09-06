@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './main.css'
+import './Main.css'
 import Cards from './Cards'
 
 const Home = () => {
